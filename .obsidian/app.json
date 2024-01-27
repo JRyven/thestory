@@ -1,1 +1,10 @@
-{}
+{
+  "livePreview": false,
+  "foldHeading": false,
+  "foldIndent": false,
+  "autoPairBrackets": true,
+  "useTab": false,
+  "tabSize": 2,
+  "trashOption": "local",
+  "alwaysUpdateLinks": true
+}
