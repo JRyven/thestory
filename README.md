@@ -1,3 +1,3 @@
 # thestory
 
-By James. All rights reserved.
+All rights reserved.
