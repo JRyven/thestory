@@ -1,0 +1,72 @@
+
+* > p:last-of-type {
+  margin-bottom: 0px;
+}
+
+/**
+ * Containers and spacing
+ */
+body {
+  min-height: 100vh;
+}
+
+header {
+  padding: 1em 10em;
+  margin-bottom: 2em;
+}
+header nav {
+  height: 50px;
+}
+
+main {
+  margin-bottom: 2em;
+}
+main article {
+  margin-bottom: 2em;
+}
+
+article section {
+  padding: 0 10em;
+}
+article section.detail {
+  margin-top: 15px;
+  text-align: right;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding: 0.5em 10em;
+}
+footer p {
+  width: 100%;
+  text-align: center;
+}
+
+/**
+ * Fonts
+ */
+.article-content .detail,
+footer p {
+  font-size: 0.9em;
+}
+
+/**
+ * Color
+ */
+body {
+  background-color: #fffbf6;
+}
+header {
+  background-color: #d7e2fa;
+}
+main > section {
+  background-color: #fff;
+}
+main > article {
+  background-color: #fff;
+}
+footer {
+  background-color: #d7e2fa;
+}
