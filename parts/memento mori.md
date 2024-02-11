@@ -1,6 +1,7 @@
 ---
 tags:
   - poem
+  - death
 aliases:
   - 1266796801-write
   - memento vivere
@@ -20,4 +21,4 @@ srcURL:
 circling circles
 till the gaunt husk fails
 
-___
+---

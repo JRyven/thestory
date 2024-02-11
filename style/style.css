@@ -1,4 +1,3 @@
-
 * > p:last-of-type {
   margin-bottom: 0px;
 }
@@ -23,14 +22,35 @@ main {
 }
 main article {
   margin-bottom: 2em;
+  padding: 0.5em 0;
 }
 
 article section {
   padding: 0 10em;
 }
-article section.detail {
-  margin-top: 15px;
-  text-align: right;
+
+article .heading,
+article .content,
+article .details{
+  margin-bottom: 2em;
+}
+article .details ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+article .details ul li {
+  display: inline-block;
+  /* padding-right: 0.5em;
+  margin-right: 0.5em;
+  border-style: solid;
+  border-color: #d7e2fa;
+  border-width: 0 1px 0 0; */
+}
+article .details ul li:last-child {
+  /* margin: 0;
+  padding: 0;
+  border-width: 0; */
 }
 
 footer {
@@ -47,7 +67,16 @@ footer p {
 /**
  * Fonts
  */
-.article-content .detail,
+
+article .content p {
+  margin-bottom: 0;
+}
+
+article .details p{
+  font-size: 0.8em;
+}
+article .details ul,
+article .details li,
 footer p {
   font-size: 0.9em;
 }
