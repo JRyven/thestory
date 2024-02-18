@@ -1,10 +1,6 @@
 $(() => {
   function fetchMarkdownContent() {
 
-    const pathname = decodeURIComponent(window.location.pathname);
-    console.log(pathname);
-    const ajaxUrl = 'parts' + pathname + '.md';
-    console.log(ajaxUrl);
     $.ajax({
       url: 'parts/memento mori.md',
         success: function(data) {
