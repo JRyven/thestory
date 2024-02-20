@@ -2,7 +2,7 @@ $(() => {
   function fetchMarkdownContent() {
 
     $.ajax({
-      url: 'parts/memento mori.md',
+      url: '/parts/memento mori.md',
         success: function(data) {
         renderMarkdown(data);
       },
